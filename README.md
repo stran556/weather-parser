@@ -1,9 +1,8 @@
 # HTTP Content Parser for Weather.com
 
-content.txt - Contains HTML contents of the specified weather.com URL
+There is nothing more useful than the ability to check the weather at any time and any place, for any place. Especially in your Linux terminal, where the forecast is of paramount importance, the command to check weather should work when you use it. Only it doesn't.
 
-weatherlocation.sh - Extract contents from URL and saves into weathercontent.txt. If no argument given, the user's default location will be used
+![](https://github.com/stran556/weather-parser/blob/main/output.png)
 
-weatheroutput.sh - Formats HTML content from text file into readable display
+Weather-parser displays the weather with a densely packed interface of necessary and unnecessary information. There was no point in knowing the dew point or the moon phase, but here you have it. Weather-parser will display the local forecast by default or access another location by manual search.
 
-weather.sh - The only thing that needs to be ran. Provide with a weather.com URL for specific data or run without arguments to get data from default location. Can also provide with search arguments (Not all locations will work).
